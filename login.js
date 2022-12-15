@@ -21,7 +21,7 @@ conexion.connect(function (error) {
 		throw error;
 	} else {
 		console.log("Conexión exitosa");
-	}
+	} 
 });
 
 const puerto = process.env.PUERTO || 3000;
